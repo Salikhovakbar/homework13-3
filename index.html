@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+    <form id="form-box" action="">
+        <div class="remove-input">
+        <input list="list" type="text" required placeholder="Vocabulary">
+        <datalist id="list">
+            <option value="Car"></option>
+            <option value="President"></option>
+            <option value="Doctor"></option>
+            <option value="Gun"></option>
+            <option value="HomeLand"></option>
+            <option value="Laptop"></option>
+            <option value="SuperMarket"></option>
+            <option value="Plane"></option>
+            <option value="Football"></option>
+            <option value="Food"></option>
+
+        </datalist>
+        <div class="close-icon">
+            <i id="close-btn" class="bi bi-x-square"></i>
+            <i id="btn-reaserch" class="bi bi-search"></i>
+        </div>
+        </div>
+
+        <button type="submit" id="btn-search">FIND OUT</button>
+    </form>
+    <div class="answer-box"></div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
